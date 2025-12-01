@@ -19,7 +19,7 @@ const HeroSection = () => {
       }}
     >
       <Chip
-        label="Penguin • Compliance Lab"
+        label="Penguin • Pen Lab"
         color="secondary"
         variant="outlined"
         sx={{ mb: 2, fontWeight: 500 }}
@@ -48,7 +48,7 @@ const HeroSection = () => {
         everything in one modern workspace — optimized for Arabic tenders.
       </Typography>
 
-      <Stack direction="row" spacing={2} alignItems="center">
+      {/* <Stack direction="row" spacing={2} alignItems="center">
         <Button
           variant="contained"
           size="large"
@@ -57,7 +57,7 @@ const HeroSection = () => {
         >
           Upload RFP PDF
         </Button>
-      </Stack>
+      </Stack> */}
     </Box>
   );
 };
