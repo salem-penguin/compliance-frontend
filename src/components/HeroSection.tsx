@@ -1,5 +1,6 @@
-import { Box, Button, Chip, Stack, Typography } from "@mui/material";
-import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+// import { Box, Button, Chip, Stack, Typography } from "@mui/material";
+// import CloudUploadIcon from "@mui/icons-material/CloudUpload";
+import { Box, Chip, Typography } from "@mui/material";
 
 const HeroSection = () => {
   return (
@@ -48,7 +49,7 @@ const HeroSection = () => {
         everything in one modern workspace — optimized for Arabic tenders.
       </Typography>
 
-      {/* <Stack direction="row" spacing={2} alignItems="center">
+      {/* { <Stack direction="row" spacing={2} alignItems="center">
         <Button
           variant="contained"
           size="large"
@@ -57,7 +58,7 @@ const HeroSection = () => {
         >
           Upload RFP PDF
         </Button>
-      </Stack> */}
+      </Stack> } */}
     </Box>
   );
 };
