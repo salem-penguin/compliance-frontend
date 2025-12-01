@@ -180,6 +180,7 @@ console.log("PdfPreviewPanel pdfUrl =", pdfUrl);
       sx={{
         p: 2.5,
         height: "100%",
+                  boxShadow : 15,
         minHeight: 600,
         display: "flex",
         flexDirection: "column",

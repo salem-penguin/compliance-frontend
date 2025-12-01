@@ -70,6 +70,7 @@ const WorkbenchLayout = () => {
       <Box
         sx={{
           display: "grid",
+                
           gridTemplateColumns: {
             xs: "1fr", // mobile: stacked
             md: "350px 1fr", // ⭐ FIXED: Fixed sidebar width, rest takes available space
@@ -81,7 +82,8 @@ const WorkbenchLayout = () => {
       >
         <ProcessPanel workbench={workbench} />
         {/* Ensure the PDF Panel takes full height of the grid cell */}
-        <Box sx={{ height: "100%", '& > *': { height: '100%' } }}>
+        <Box sx={{ height: "100%", '& > *': { height: '100%' } ,
+                boxShadow : 13,}}>
            <PdfPreviewPanel workbench={workbench} />
         </Box>
       </Box>
@@ -90,6 +92,7 @@ const WorkbenchLayout = () => {
       <Box
         sx={{
           minHeight: 400,
+                    boxShadow : 15,
         }}
       >
         <ComplianceTableCard workbench={workbench} />

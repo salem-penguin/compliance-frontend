@@ -196,9 +196,9 @@ const ProcessPanel = ({ workbench }: ProcessPanelProps) => {
   };
 
   return (
-    <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-      <Paper sx={{ p: 2.5 }}>
-        <Typography variant="h6" sx={{ mb: 1.5 }}>
+    <Box sx={{ display: "flex", flexDirection: "column", gap: 2  , }}>
+      <Paper sx={{ p: 2.5  ,           boxShadow : 13,}}>
+        <Typography variant="h6" sx={{ mb: 1.5 , }}>
           RFP pipeline
         </Typography>
 
@@ -260,7 +260,7 @@ const ProcessPanel = ({ workbench }: ProcessPanelProps) => {
       </Paper>
 
       {/* simple export block – you can later move these to the table card if you prefer */}
-      <Paper sx={{ p: 2 }}>
+      <Paper sx={{ p: 2 ,           boxShadow : 13,}}>
         <Typography variant="subtitle1" sx={{ mb: 1 }}>
           Export
         </Typography>

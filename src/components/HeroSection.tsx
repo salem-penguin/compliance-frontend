@@ -9,7 +9,7 @@ const HeroSection = () => {
         bgcolor: "background.paper",
         borderRadius: 4,
         p: { xs: 3, md: 4 },
-        boxShadow: "0 18px 40px rgba(15, 23, 42, 0.12)",
+        boxShadow : 15,
         display: "flex",
         flexDirection: "column",
         alignItems: "center",            // ⬅️ CENTER
