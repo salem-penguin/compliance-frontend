@@ -816,7 +816,7 @@ const ComplianceTableCard = ({ workbench }: ComplianceTableCardProps) => {
           >
             <ToggleButton value="all">All</ToggleButton>
             <ToggleButton value="low">Low confidence</ToggleButton>
-            <ToggleButton value="mandatory">Mandatory only</ToggleButton>
+            <ToggleButton value="mandatory">Critical Only</ToggleButton>
           </ToggleButtonGroup>
 
           {/* Compliance Yes/No/All filter */}
